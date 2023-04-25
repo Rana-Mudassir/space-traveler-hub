@@ -14,6 +14,7 @@ const links = [{
 
 function Navbar() {
   const location = useLocation();
+
   const linkClasses = (pathName) => `link ${location.pathname === pathName ? 'active-link' : ''}`;
   return (
     <header>
