@@ -1,9 +1,5 @@
 <a name="readme-top"></a>
 
-# Preview
-
-![bookStore](BookStore.png)
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -31,13 +27,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Space Travelers' Hub <a name="about-project"></a>
 
-**Book Store** is a website to understand how to parse a Zeplin design to create a UI.
-Functionalities -
-Display a list of books
-Add a book
-Remove a selected book
+**Space Travelers' Hub** is a website to implement as follows:
+
+- Use React documentation
+- Use React components
+- Use React props
+- Use React Router
+- Connect React and Redux
+- Handle events in a React app
+- Write unit tests with React Testing Library
+- Use styles in a React app
+- Use React hooks
+- Apply React best practices and language style guides in code
+- Use store, actions and reducers in React
+- Perform a code review for a team member
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,7 +62,6 @@ This is to practice React
 - **Styling**
 - **Redux**
 - **Fetch data from API**
-- **Tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,7 +83,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/BookStore.git
+  git clone https://github.com/sawmon71293/react-group-project.git
 ```
 
 ### Install
@@ -112,17 +116,17 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Mudassir Nazir**
+
+- GitHub: [@sawmon](https://github.com/Rana-Mudassir)
+- Facebook: [@Facebook](https://www.facebook.com/rana.mudasir.142)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rana-mudassir-nazir-03541114a/)
+
 👤 **Saw Mon Han**
 
-- GitHub: [@sawmon](https://github.com/sawmon71293/)
-- Twitter: [@Twitterhandle](https://twitter.com/sawmon34268255)
+- GitHub: [@sawmon](https://github.com/sawmon71293)
+- Twitter: [@Twitterhandle](https://twitter.com/sawmonhan)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
-
-👤 **Kelvin Irungu**
-
-- GitHub: [@sawmon](https://github.com/Kel-nana)
-- Twitter: [@Twitterhandle](https://twitter.com/irungu69)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kelvin-irungu-838923249/)
 
 ## 🔭 Future Features <a name="features"></a>
 
