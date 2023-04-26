@@ -120,13 +120,13 @@ You can deploy this project using:
 
 - GitHub: [@Mudassir](https://github.com/Rana-Mudassir)
 - Facebook: [@Facebook](https://www.facebook.com/rana.mudasir.142)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rana-mudassir-nazir-03541114a/)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/rana-mudassir-nazir-03541114a/)
 
 👤 **Saw Mon Han**
 
 - GitHub: [@sawmon](https://github.com/sawmon71293)
 - Twitter: [@Twitterhandle](https://twitter.com/sawmonhan)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/saw-mon-han/)
 
 ## 🔭 Future Features <a name="features"></a>
 
