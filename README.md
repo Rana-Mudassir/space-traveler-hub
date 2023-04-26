@@ -118,7 +118,7 @@ You can deploy this project using:
 
 👤 **Mudassir Nazir**
 
-- GitHub: [@sawmon](https://github.com/Rana-Mudassir)
+- GitHub: [@Mudassir](https://github.com/Rana-Mudassir)
 - Facebook: [@Facebook](https://www.facebook.com/rana.mudasir.142)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/rana-mudassir-nazir-03541114a/)
 
