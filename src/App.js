@@ -1,7 +1,19 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Rockets from './Components/rockets/Rockets';
+import Missions from './Components/Missions';
 
 function App() {
-  return <div className="App" />;
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+        <Route path="/missions" element={<Missions />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;

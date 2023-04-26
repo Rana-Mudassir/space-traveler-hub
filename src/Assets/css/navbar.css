@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.active-link {
+  text-decoration: underline !important;
+}
+
+.planet {
+  font-size: 4rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
