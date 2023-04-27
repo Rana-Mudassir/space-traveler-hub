@@ -21,7 +21,7 @@ const Rocket = ({
             variant="secondary"
             onClick={(e) => {
               e.preventDefault();
-              dispatch(reserveRocket());
+              dispatch(reserveRocket(id));
             }}
           >
             Cancel Reservation
