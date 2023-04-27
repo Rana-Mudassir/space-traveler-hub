@@ -16,7 +16,7 @@ const links = [
   },
   {
     id: 3,
-    name: 'Profile',
+    name: 'My Profile',
     pathName: '/profile',
   },
 ];
