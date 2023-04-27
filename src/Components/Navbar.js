@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import '../Assets/css/navbar.css';
-import { BiPlanet } from 'react-icons/bi';
+import planet from '../Assets/images/planet.png';
 
 const links = [
   {
@@ -14,6 +14,11 @@ const links = [
     name: 'Missions',
     pathName: '/missions',
   },
+  {
+    id: 3,
+    name: 'Profile',
+    pathName: '/profile',
+  },
 ];
 
 function Navbar() {
@@ -23,12 +28,12 @@ function Navbar() {
   return (
     <header>
       <nav className="navbar mt-3">
-        <div className="d-flex">
-          <BiPlanet className="planet" />
+        <div className="d-flex align-items-center">
+          <img src={planet} alt="Planet" className="planet" />
           <h1>Space Travelers&apos; Hub</h1>
         </div>
         <div className="nav-space-between">
-          <ul className="nav">
+          <ul className="nav nav-container">
             {links?.map((link) => (
               <li key={link.id}>
                 <NavLink
