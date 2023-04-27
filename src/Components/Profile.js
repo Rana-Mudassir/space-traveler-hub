@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 
 const Profile = () => {
   const rockets = useSelector((store) => store.rocket.rockets);
+  const missions = useSelector((store) => store.mission.missions);
   return (
     <section>
       <hr />
@@ -11,10 +12,10 @@ const Profile = () => {
         <div className="missions">
           <h4>My Missions</h4>
           <ul>
-            <li>Telstar</li>
-            <li>Telstar</li>
-            <li>Telstar</li>
-            <li>Telstar</li>
+            {missions.filter((mission) => mission.reserved)
+              .map((mission) => (
+                <li key={mission.mission_id}>{mission.mission_name}</li>
+              ))}
           </ul>
         </div>
         <div className="rockets">

@@ -28,9 +28,9 @@ function MissionsList() {
               id={mission.mission_id}
               title={mission.mission_name}
               description={mission.description}
+              reserved={mission.reserved}
             />
           )) }
-
         </tbody>
       </table>
     </>
