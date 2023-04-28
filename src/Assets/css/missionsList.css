@@ -1,0 +1,81 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th {
+  color: black;
+  font-weight: bold;
+}
+
+tbody td,
+tbody th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.title-name {
+  width: 10%;
+  font-weight: 700;
+}
+
+.desc-name {
+  width: 65%;
+}
+
+.reserve-button {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.reserve-button-leave {
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  color: red;
+}
+
+.reserve-button:hover {
+  background-color: #9cbeda;
+}
+
+.reserve-button:active {
+  background-color: #0a6bbf;
+  border-color: #dc3645;
+}
+
+.status {
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td:last-child {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.status-active {
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status-inactive {
+  background-color: #6d757d;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

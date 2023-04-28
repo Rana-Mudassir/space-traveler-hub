@@ -1,0 +1,25 @@
+.link {
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.active-link {
+  text-decoration: underline !important;
+}
+
+.planet {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
+}
+
+.nav-container li:nth-child(3)::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20%;
+  background-color: rgb(156, 152, 152);
+  position: absolute;
+  margin-left: -1rem;
+}
