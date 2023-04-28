@@ -5,7 +5,6 @@ const url = 'https://api.spacexdata.com/v3/missions';
 
 const initialState = {
   missions: [],
-  status: false,
 };
 
 const Missions = (res) => res.data.map(({
@@ -28,10 +27,35 @@ const missionsSlice = createSlice({
   reducers: {
     reserveMission: (state, action) => {
       const newId = action.payload;
-      const mission = state.missions.find((mission) => mission.mission_id === newId);
-      if (mission) {
-        mission.reserved = !mission.reserved;
-      }
+      const updatedMissions = state.missions.map((mission) => {
+        if (mission.mission_id === newId) {
+          return {
+            ...mission,
+            reserved: !mission.reserved,
+          };
+        }
+        return mission;
+      });
+      return {
+        ...state,
+        missions: updatedMissions,
+      };
+    },
+    leaveMission: (state, action) => {
+      const missionId = action.payload;
+      const updatedMissions = state.missions.map((mission) => {
+        if (mission.mission_id === missionId) {
+          return {
+            ...mission,
+            reserved: false,
+          };
+        }
+        return mission;
+      });
+      return {
+        ...state,
+        missions: updatedMissions,
+      };
     },
   },
   extraReducers: (builder) => {
@@ -41,6 +65,6 @@ const missionsSlice = createSlice({
     });
   },
 });
-export const { reserveMission } = missionsSlice.actions;
+export const { reserveMission, leaveMission } = missionsSlice.actions;
 
 export default missionsSlice.reducer;
