@@ -32,7 +32,7 @@ function MissionsList() {
               description={mission.description}
               reserved={mission.reserved}
             />
-          )) }
+          ))}
         </tbody>
       </table>
     </>

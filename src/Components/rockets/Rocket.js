@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { reserveRocket } from '../../features/rocketsSlice';
+import { reserveRocket, cancelReservation } from '../../features/rocketsSlice';
 
 const Rocket = ({
   id, name, description, image, reserved,
@@ -21,7 +21,7 @@ const Rocket = ({
             variant="secondary"
             onClick={(e) => {
               e.preventDefault();
-              dispatch(reserveRocket(id));
+              dispatch(cancelReservation(id));
             }}
           >
             Cancel Reservation

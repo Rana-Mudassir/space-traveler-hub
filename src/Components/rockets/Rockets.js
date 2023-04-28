@@ -7,9 +7,13 @@ import '../../Assets/css/rockets.css';
 const Rockets = () => {
   const dispatch = useDispatch();
   const { rockets } = useSelector((store) => store.rocket);
+
   useEffect(() => {
-    dispatch(getRockets());
-  }, [dispatch]);
+    if (rockets.length === 0) {
+      dispatch(getRockets());
+    }
+  }, [dispatch, rockets]);
+
   return (
     <section>
       <hr />

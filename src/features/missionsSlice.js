@@ -31,7 +31,7 @@ const missionsSlice = createSlice({
         if (mission.mission_id === newId) {
           return {
             ...mission,
-            reserved: !mission.reserved,
+            reserved: true,
           };
         }
         return mission;

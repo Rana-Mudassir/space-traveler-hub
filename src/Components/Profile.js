@@ -12,7 +12,7 @@ const Profile = () => {
         <div className="missions">
           <h4>My Missions</h4>
           <ul>
-            {missions.filter((mission) => mission.reserved)
+            {missions?.filter((mission) => mission.reserved)
               .map((mission) => (
                 <li key={mission.mission_id}>{mission.mission_name}</li>
               ))}
@@ -22,8 +22,7 @@ const Profile = () => {
           <h4>My Rockets</h4>
           <ul>
             {
-              rockets
-                .filter((rocket) => rocket.reserved)
+              rockets?.filter((rocket) => rocket.reserved)
                 .map((rocket) => (
                   <li key={rocket.id}>{rocket.name}</li>
                 ))
