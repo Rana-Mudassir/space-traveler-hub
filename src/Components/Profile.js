@@ -22,12 +22,12 @@ const Profile = () => {
           <h4>My Rockets</h4>
           <ul>
             {
-                            rockets
-                              .filter((rocket) => rocket.reserved)
-                              .map((rocket) => (
-                                <li key={rocket.id}>{rocket.name}</li>
-                              ))
-                        }
+              rockets
+                .filter((rocket) => rocket.reserved)
+                .map((rocket) => (
+                  <li key={rocket.id}>{rocket.name}</li>
+                ))
+            }
           </ul>
         </div>
       </div>
