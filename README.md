@@ -112,7 +112,7 @@ You can deploy this project using:
 
 ### Live <a name="live"></a>
 
-- This page is yet to be deployed
+- [Live Demo](space-travellers-hub1.netlify.app/)
 
 ## 👥 Authors <a name="authors"></a>
 
